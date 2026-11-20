@@ -12,7 +12,7 @@ layout: paginated
 {# disableFinding(LINE_OVER_80_LINK) #}
 {# disableFinding(IMAGE_IMG) #}
 
-# Build Multi-Agent Teams with AlloyDB for PostgreSQL
+# Build multi-agent teams with AlloyDB PostgreSQL for Agents
 
 ## Introduction
 Duration: 03:00
