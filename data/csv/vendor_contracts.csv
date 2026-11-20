@@ -1,0 +1,3 @@
+contract_id,supplier_id,supplier_name,payment_terms,late_delivery_sla_penalty_pct,contract_status
+CTR-2026-001,SUP-001,Cascade Ridge Manufacturing,Net 45 (2% 10-Day Early Pay),5.00,Active - Under SLA Review
+CTR-2026-002,SUP-002,Pacific Trail Imports,Net 60 Letter of Credit,7.50,Breach Notice Issued

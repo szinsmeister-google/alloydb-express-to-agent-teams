@@ -1,0 +1,13 @@
+sku,product_name,category,supplier_id,unit_cost,list_price,lead_time_days,reorder_point,safety_stock
+STS-0001,Apex 4-Season Expedition Tent,Tents & Shelters,SUP-002,112.00,249.99,7,400,150
+STS-0002,SolarFlare 1000L Rechargeable Lantern,Lighting & Electronics,SUP-002,24.50,59.99,7,800,250
+STS-0003,GlacierVault 45Qt Rotomolded Cooler,Hydration & Coolers,SUP-002,88.00,199.99,7,500,180
+STS-0004,Titanium Dual-Fuel Backcountry Stove,Camp Kitchen,SUP-002,31.00,79.99,7,600,200
+STS-0005,TrailBeam 450 Headlamp Pro,Lighting & Electronics,SUP-002,18.20,44.99,7,900,300
+STS-0006,Northfork Dome Tent Lite,Tents & Shelters,SUP-001,67.34,154.57,14,450,160
+STS-0007,Basin Backpacking Tent,Tents & Shelters,SUP-001,71.64,159.96,14,420,150
+STS-0008,Juniper Tarp Shelter Lite,Tents & Shelters,SUP-001,27.15,49.81,14,700,220
+STS-0009,Northfork Bivy,Tents & Shelters,SUP-001,59.75,129.89,14,520,180
+STS-0010,Basin Canopy Lite,Tents & Shelters,SUP-001,35.91,74.91,14,600,200
+STS-0011,Sierra Down Sleeping Bag 20F,Sleep Systems,SUP-003,95.00,219.00,10,350,120
+STS-0012,Highland Carbon Trekking Poles,Packs & Poles,SUP-004,42.00,99.50,12,500,160

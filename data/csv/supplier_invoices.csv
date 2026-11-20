@@ -1,0 +1,4 @@
+invoice_id,supplier_id,invoice_date,sku,product_name,units_billed,contract_unit_cost_usd,billed_unit_cost_usd,sla_penalty_credit_usd,payment_status
+INV-2026-0718,SUP-001,2026-07-18,STS-0009,Northfork Bivy,1100,84.50,89.25,5355.00,Disputed - Late Delivery + Surcharge
+INV-2026-0624,SUP-001,2026-06-24,STS-0006,Northfork Dome Tent Lite,1000,142.00,146.00,6935.00,Approved with 5% SLA Credit
+INV-2026-0529,SUP-001,2026-05-29,STS-0010,Basin Canopy Lite,950,118.00,118.00,0.00,Paid (2% Early Pay Discount)

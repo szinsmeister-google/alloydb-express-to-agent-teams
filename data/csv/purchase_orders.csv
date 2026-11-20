@@ -1,0 +1,6 @@
+po_id,supplier_id,dc_id,order_date,promised_date,status
+101,SUP-002,3,2026-06-01,2026-06-08,received_late
+102,SUP-002,2,2026-06-15,2026-06-22,received_late
+103,SUP-001,3,2026-06-05,2026-06-19,received_late
+104,SUP-001,2,2026-07-01,2026-07-15,received_late
+105,SUP-003,1,2026-06-10,2026-06-20,received_on_time

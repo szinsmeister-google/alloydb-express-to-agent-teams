@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=./git-based-demos-schema.json
+file_type: demo
+type: application
+title: Build Multi-Agent Teams with AlloyDB for PostgreSQL
+thumbnail_summary: Prototype in 2 seconds with AlloyDB Express, upgrade in place to Agent Mode, and run a 10-agent ADK supply-chain team with PostgreSQL-enforced 2x2 isolation.
+purpose: |
+  Built for **VPs of Engineering, Chief Data Officers, VPs of Supply Chain, and CISOs**, this end-to-end demonstration and self-service lab solves the core dilemma of enterprise AI agents: giving autonomous teams live transactional data access without risking primary database stability or relying on fragile prompt-level security.
+
+  During a live customer pitch or hands-on CE/FDE workshop, presenters walk buyers through the **Summit Trail Supply** peak-season crisis—where unit fill rates fall from 96.2% to 83.9% across three regional hubs ($1.29M in lost revenue). Viewers watch a coding agent spin up **AlloyDB Express** in under 2 seconds via Remote MCP, graduate in place to **AlloyDB Agent Mode** (`0 -> 10` serverless microVMs), unleash a **10-agent Google ADK team** (with a **Devil's Advocate** agent), and prove engine-enforced `SQLSTATE 42501` database isolation between warehouse and finance identities.
+business_value: |
+  * **Recover Millions in At-Risk Revenue:** Parallel 10-agent diagnostics and lateral-routing simulations recover **11,846 cut units (+$1.25M)** and restore fill rates from 83.9% to 99.0%+.
+  * **Kill False Leads with a Devil's Advocate Agent:** Specialist `s10` audits 325 cycle counts (98.62% accuracy) and forecasts (<1.8% variance) in seconds, preventing costly emergency air freight.
+  * **Zero-Migration Prototype-to-Production Velocity:** Spin up scale-to-zero PostgreSQL 18 sandboxes in **~2 seconds** over MCP ($0 idle compute) and upgrade in place to 99.99% SLA AlloyDB with zero ETL or rewrites.
+  * **Pass CISO Security Reviews on Day One:** Replaces brittle prompt rules with cryptographic OAuth-to-IAM PostgreSQL `GRANT`/`REVOKE` boundaries replicated across every agent microVM.
+technical_value: |
+  * **Workload Isolation via AlloyDB Agent Mode:** Serverless read-only **Agent Pools** (`0 -> 10 -> 0` microVMs) read live **Google Colossus** storage with sub-ms freshness while primary CPU stays flat (**~15%**) under 200+ concurrent MCP queries.
+  * **Streamable HTTP MCP + Google ADK Orchestration:** Wires **Vertex AI Agent Engine / Google ADK** (`ParallelAgent`, `s01`–`s10`, Gemini 2.5 Flash) to `execute_sql_read_only` over MCP with OAuth 2.0 Bearer refresh and Private Service Connect.
+  * **Governed Context Graph in Dataplex Knowledge Catalog:** Auto-indexes PostgreSQL descriptions (`COMMENT ON`), foreign keys, and cross-database lineage (`inventory_db` + `finance_db`) so agents honor domain status semantics (`shipped`, `partial`, `cut`).
+  * **Engine-Enforced 2x2 Authz & Cloud Monitoring Proof:** Verifies `SQLSTATE 42501` isolation across `warehouse-agent` and `finance-agent` IAM identities alongside **Cloud Monitoring** scale-to-zero telemetry.
+owner: szinsmeister
+team_owner: "2033948602762"
+demo_guide: https://docs.google.com/document/d/1bweva8pKl1ZsSZgkylBcbxccBWRpgfi8Q-BlefJZ-Uc/edit?resourcekey=0-T-Y15QDyhXSi5D1T1NryTQ
+products:
+  - alloydb_for_postgresql
+  - vertex_ai_agent_engine
+  - dataplex
+  - cloud_monitoring
+industries:
+  - retail_consumer
+  - logistics
+tags:
+  - alloydb
+  - alloydb-express
+  - alloydb-agent-mode
+  - multi-agent-teams
+  - google-adk
+  - mcp
+  - knowledge-catalog
+  - supply-chain
+  - postgresql
+artifacts:
+  - title: GitHub Source Repository (CE/FDE Self-Service Kit)
+    type: code_repo
+    link: https://github.com/szinsmeister-google/alloydb-express-to-agent-teams
+  - title: Full 4-Chapter Product Demo Video (9m 35s)
+    type: video
+    link: https://drive.google.com/file/d/1tbqznZnmvHTXX41215v0l_0iyTKtKUNi/view?usp=drivesdk&resourcekey=0-ANan0tWsz2LtttYTrDwYQA
+  - title: Hands-On Codelab (Build Multi-Agent Teams with AlloyDB)
+    type: document
+    link: https://codelabs.devsite.corp.google.com/alloydb-express-to-agent-teams#0
+  - title: L400 Technical Training Course Kit (Athena)
+    type: document
+    link: https://docs.google.com/document/d/1EvaWIdB3gQzWzKqmznEZWKBc9yjU8UiNrBSo3tVb63U/edit
+featured_artifact_title: GitHub Source Repository (CE/FDE Self-Service Kit)
+featured_video_artifact_title: Full 4-Chapter Product Demo Video (9m 35s)
+images:
+  - https://screenshot.googleplex.com/TCHTF9fQUqzjpgV.png
+# After submitting on go/demos/demo/bulk and receiving your Demo ID (<ID>), uncomment:
+# click_to_deploy_path: <ID>-alloydb-express-to-agent-teams/tree/main/click-to-deploy

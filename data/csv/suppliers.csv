@@ -1,0 +1,5 @@
+supplier_id,supplier_name,country,reliability_tier
+SUP-001,Cascade Ridge Manufacturing,USA,Tier-2 Watch
+SUP-002,Pacific Trail Imports,Vietnam,Tier-3 Delinquent
+SUP-003,Sierra Alpine Textiles,USA,Tier-1 Preferred
+SUP-004,Highland Gear Works,Taiwan,Tier-1 Preferred
